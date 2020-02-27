@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+    padding: 1rem;
+    color: gold;
+    background-color: black;
+    font-family: Lobster, Helvetica;
+    font-size: 5rem;
+}
+
+.doggos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.selection {
+    padding: 0.8rem;
+    background-color: rgb(202, 178, 44);
+}
+
+.instructions {
+    font-size: 3rem;
+    font-family: Lobster, Helvetica;
+    margin-right: 1rem;
+}
+
+.breeds {
+    font-size: 2rem;
+    border-radius: 10px;
+}
+
+.dog-image {
+    border-radius: 5%;
+    margin: 1rem;
+    max-width: 600px;
+}

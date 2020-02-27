@@ -1,0 +1,22 @@
+@keyframes spin {
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.spinner {
+    display: none;
+    font-size: 3rem;
+    animation: 0.5s spin linear infinite;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.dog-image {
+    display: none;
+}
+
+.show {
+    display: block;
+}
